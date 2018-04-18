@@ -1,0 +1,122 @@
+.sidebar {
+  background: $colorBackground;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  .section {
+    width: 100%;
+    padding: 2% 5%;
+  }
+  h3 {
+    margin: 0;
+  }
+}
+
+.section.header {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .photo-holder {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .photo {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  .title-holder {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 0.8em;
+      margin: 0;
+    }
+  }
+}
+
+.section.contact {
+  height: 15%;
+  table {
+    font-size: 0.8em;
+    td p{
+      margin-top: 1px;
+      margin-bottom: 10px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.section.profile {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  h3 {
+    margin: 5px 0;
+    font-size: 1.2em;
+  }
+  p {
+    margin: 0 5%;
+    font-size: 0.9em;
+  }
+}
+
+.section.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .header-container {
+    width: 100%;
+  }
+  .skills-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    .skill {
+      width: 28%;
+      background: white;
+      border-radius: 5px;
+      padding: 5px;
+      margin: 5px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      p {
+        text-anchor: center;
+        margin: 0;
+      }
+    }
+  }
+}
+
+div.section.skills:last-of-type {
+  height: 10%;
+  .skill {
+    background: none;
+  }
+}

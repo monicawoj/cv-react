@@ -1,0 +1,128 @@
+.main {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  .section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    .title-holder {
+      width: 90%;
+      h3 {
+        margin-bottom:0;
+      }
+    }
+  }
+}
+
+.section.projects {
+  height: 50%;
+  .focus.project {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    //height: 20%;
+    margin: 10px;
+    border: 1px solid $colorBackground;
+    .title-section {
+      //height: 100%;
+      width: 30%;
+      background: $colorBackground;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      background-position: center;
+      background-size: cover;
+      .title {
+        font-size: 1em;
+        text-align: center;
+        padding-top: 10px;
+        h3 {
+          margin: 0;
+          font-size: 1em;
+        }
+      }
+      .links {
+        font-size: 0.5em;
+        border: 1px solid $colorBackground;
+        width: 100%;
+        height: 30%;
+        background: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        .git {
+
+        }
+        .demo {
+
+        }
+      }
+    }
+    .description-section {
+      width: 70%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      p {
+        margin: 10px;
+        font-size: 0.5em;
+      }
+    }
+  }
+  .project-holder {
+    width: 90%;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.section.experience {
+  .title-holder h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .table {
+    width: 90%;
+    margin-bottom: 10px;
+    table {
+      width: 100%;
+    }
+    ul {
+      margin: 0;
+    }
+  }
+}
+
+.section.education {
+  background: orange;
+}
+
+.section.interests {
+  p {
+    width: 90%;
+  }
+}
