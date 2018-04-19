@@ -50,7 +50,7 @@ const cvData = [
         "description": "On-demand design and development of interactive data visualizations for sports analytics firm, Massey-Peabody Analytions using D3js, NVD3.js",
         "year": "2015-2018",
         "school": "",
-        "position": "Data Vis. Specialist",
+        "position": "Data Visualization Specialist",
         "location": "Remote position",
         "technologies": "",
         "link": "http://massey-peabody.com/",
@@ -117,6 +117,21 @@ const cvData = [
         "git": "https://github.com/monicawoj/bloom-react-D3-familyTree",
         "type": "focus",
         "image": "bloom",
+        "name": ""
+    },
+    {
+        "section": "projects",
+        "title": "See the CV",
+        "description": "Personal curriculum vitae creator based on JSON data; responsive to mobile, tablet, desktop (Note: this document is a product of 'See the CV')",
+        "year": "",
+        "school": "",
+        "position": "",
+        "location": "",
+        "technologies": "React.js, Sass (with media queries), HTML5, Gulp",
+        "link": "https://monicawoj.github.io/cv-react/",
+        "git": "https://github.com/monicawoj/cv-react",
+        "type": "focus",
+        "image": "",
         "name": ""
     },
     {

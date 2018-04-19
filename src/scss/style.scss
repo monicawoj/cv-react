@@ -1,5 +1,6 @@
 $colorBackground : #e0ebe0;
-$fontFamily: 'Lato', sans-serif;
+$font-family: 'Lato', sans-serif;
+$break: 800px;
 
 @import "_mixins.scss";
 @import "components/_global-layout.scss";
