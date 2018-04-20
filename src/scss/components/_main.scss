@@ -14,8 +14,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    padding: $padding;
+    @media only screen and (max-width: $break) {
+      background: white;
+    }
     .title-holder {
-      width: 90%;
+      width: 100%;
       h3 {
         margin:0;
       }
@@ -27,12 +31,9 @@
   .focus.project {
     display: flex;
     flex-direction: row;
-    width: 90%;
-    //height: 20%;
-    margin: 10px;
     border: 1px solid $colorBackground;
+    margin-bottom: $padding;
     .title-section {
-      //height: 100%;
       width: 30%;
       background: $colorBackground !important;
       color: black;
@@ -69,7 +70,6 @@
     }
     .description-section {
       width: 70%;
-      height: 100%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -81,7 +81,7 @@
     }
   }
   .project-holder {
-    width: 90%;
+    width: 100%;
     p {
       margin: 0;
     }
@@ -93,7 +93,7 @@
     margin-top: 0;
   }
   .table {
-    width: 90%;
+    width: 100%;
     margin-bottom: 10px;
     table {
       width: 100%;
@@ -109,7 +109,7 @@
     margin: 0;
   }
   p {
-    width: 90%;
+    width: 100%;
     margin: 0;
   }
 }

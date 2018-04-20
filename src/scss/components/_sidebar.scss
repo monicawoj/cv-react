@@ -8,7 +8,7 @@
   justify-content: space-around;
   .section {
     width: 100%;
-    padding: 0 5%;
+    padding: $padding;
   }
   h3 {
     margin: 0;
@@ -23,6 +23,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: $break) {
+    background: white;
+  }
   .photo-holder {
     height: 60%;
     width: 100%;
@@ -63,6 +66,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: $break) {
+    background: white;
+  }
   table {
     font-size: 1em;
     td p{
@@ -86,6 +92,9 @@
     margin: 0 5%;
     font-size: 1em;
   }
+  @media only screen and (max-width: $break) {
+    background: white;
+  }
 }
 
 .section.skills {
@@ -95,6 +104,9 @@
   justify-content: center;
   .header-container {
     width: 100%;
+    h3 {
+      margin-bottom: $padding;
+    }
   }
   .skills-container {
     width: 100%;

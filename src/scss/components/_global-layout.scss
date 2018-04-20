@@ -9,6 +9,9 @@
 body {
   background: white;
   font-family: $font-family;
+  @media only screen and (max-width: $break) {
+    background: $colorBackground;
+  }
 }
 
 .cv {
@@ -20,7 +23,7 @@ body {
   align-items: center;
   justify-content: center;
   @media only screen and (max-width: $break) {
-    height:400vh;
+    height:500vh;
     width: 100vw;
     overflow: scroll;
     flex-direction: column;
