@@ -8,7 +8,11 @@ class Interests extends React.Component {
             if (interest.title === 'Nature') {
                 return <span key={interest.title}>{interest.title}</span>
             } else {
-                return <span key={interest.title}>{interest.title}, </span>
+                if (interest.link) {
+                    return <span key={interest.title}><a href={interest.link}>{interest.title}</a>, </span>
+                } else {
+                    return <span key={interest.title}>{interest.title}, </span>
+                }
             }
         });
         return <div className='section interests'>
