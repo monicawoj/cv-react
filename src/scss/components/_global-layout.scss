@@ -18,14 +18,21 @@ body {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  //width: 8.5in;
   height: 11in;
   align-items: center;
   justify-content: center;
+  @media print {
+    width: 8.5in;
+  }
   @media only screen and (max-width: $break) {
     height:500vh;
     width: 100vw;
     overflow: scroll;
     flex-direction: column;
   }
+}
+
+.data-clause {
+  width: 100%;
+  color: grey;
 }
