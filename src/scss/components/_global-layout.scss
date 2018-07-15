@@ -18,11 +18,13 @@ body {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 11in;
   align-items: center;
   justify-content: center;
   @media print {
-    width: 8.5in;
+    //width: 8.5in; //dla USA
+    //height: 10.5in;
+    width: 21cm; //dla Polski
+    height: 28.7cm;
   }
   @media only screen and (max-width: $break) {
     height:500vh;
@@ -34,5 +36,15 @@ body {
 
 .data-clause {
   width: 100%;
+  height: 1cm;
   color: grey;
+  @media print {
+    font-size: 12px;
+  }
+}
+
+@media print {
+  td {
+    font-size: 14px;
+  }
 }

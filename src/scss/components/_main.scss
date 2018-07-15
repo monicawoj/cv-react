@@ -3,8 +3,8 @@
   width: 60%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
+  align-items: space-between;
+  justify-content: space-between;
   @media only screen and (max-width: $break) {
     width: 100%;
   }
@@ -29,6 +29,9 @@
 
 .section.projects {
   .focus.project {
+    @media print {
+      margin-bottom: 5px;
+    }
     display: flex;
     flex-direction: row;
     border: 1px solid $colorBackground;
@@ -78,6 +81,9 @@
       p {
         margin: 10px;
         font-size: 0.8em;
+        @media print {
+          margin: 5px;
+        }
       }
     }
   }
