@@ -10,7 +10,7 @@ class Experience extends React.Component {
                 <table>
                     <tbody>
                     <tr>
-                        <td>{job.position}, {job.title}</td>
+                        <td><span style={{fontWeight: 'bold'}}>{job.position}</span>, {job.title}</td>
                         <td style={{textAlign: 'right'}}>{job.year}</td>
                     </tr>
                     </tbody>
