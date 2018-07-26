@@ -96,6 +96,9 @@
 }
 
 .section.experience {
+  @media print {
+    margin-bottom: 50px;
+  }
   .title-holder h3 {
     margin-top: 0;
   }
