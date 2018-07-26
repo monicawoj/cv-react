@@ -27,18 +27,18 @@
     background: white;
   }
   .photo-holder {
-    height: 190px;
+    height: 200px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     .photo {
-      height: 150px;
-      width: 150px;
+      height: 180px;
+      width: 180px;
       border-radius: 50%;
       background-position: center;
       background-size: cover;
-      background-image: url('../../src/images/monica-linked-in-photo.jpg') !important;
+      background-image: url('../../src/images/monica-linkedin-photo.jpg') !important;
     }
   }
   .title-holder {
