@@ -601,7 +601,7 @@ const cvData = [
     },
     {
         "section": "interest",
-        "title": "Translation of Poetry",
+        "title": "Translation",
         "description": "",
         "year": "",
         "school": "",

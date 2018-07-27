@@ -3,8 +3,8 @@
   width: 60%;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   @media only screen and (max-width: $break) {
     width: 100%;
   }
@@ -14,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: $padding;
+    padding: 5px $padding;
     @media only screen and (max-width: $break) {
       background: white;
     }
@@ -77,6 +77,7 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+      padding: 0 10px;
       justify-content: space-around;
       p {
         margin: 10px;
@@ -89,22 +90,18 @@
   }
   .project-holder {
     width: 100%;
-    p {
+    p, ul {
       margin: 0;
     }
   }
 }
 
 .section.experience {
-  @media print {
-    margin-bottom: 50px;
-  }
   .title-holder h3 {
     margin-top: 0;
   }
   .table {
     width: 100%;
-    margin-bottom: 10px;
     table {
       width: 100%;
     }
