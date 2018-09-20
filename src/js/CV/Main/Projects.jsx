@@ -38,12 +38,12 @@ class Projects extends React.Component {
                 <h3>Projects</h3>
             </div>
             {focusProjects}
-            <div className='project-holder'>
+            {/* <div className='project-holder'>
                 <p>Additional projects:</p>
                 <ul>
                     {otherProjects}
                 </ul>
-            </div>
+            </div> */}
         </div>
     }
 }
